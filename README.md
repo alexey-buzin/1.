@@ -67,7 +67,7 @@ sudo apt-get install -y clang-tidy clang-format cppcheck
 Поэтому на всякий случай, сделайте коммит перед запуском `clang-format`.
 
 ```
-.github/clang-format.sh -i ./main.c
+.github/clang-format.sh -i ./main.cpp
 ```
 
 Пример правильно отформатированного кода:

@@ -81,7 +81,7 @@ int main()
     std::cout << vec.size << " " << vec.cup << " " << vec.v[vec.size - 1]
               << std::endl;
 
-    vec.push_back(5);
+    vec.push_back(-1);
     std::cout << vec.size << " " << vec.cup << " " << vec.v[vec.size - 1]
               << std::endl;
 

@@ -49,6 +49,7 @@ template <typename T, int minc = 0> class Vector
             throw "vector is empty";
         }
     }
+    Vector<T, minc> operator=(Vector<T, minc> V) = delete;
 
     ~Vector() { delete[] v; }
 };
